@@ -26,8 +26,7 @@ function loadExample(table, maxWidth, steps, moveStrings, stickers, hideMoves, h
     anim.height = size;
     anim.setAttribute("scrolling", "no");
     console.log(setup);
-    //anim.src = "http://teoidus.github.io/dump/CSSCube/demo.html?size="
-    anim.src = "../../CSSCube/demo.html?size="
+    anim.src = "../CSSCube/demo.html?size="
       + size + "&setup="
       + setup + "&moves=" + moves;
     if (typeof stickers != "undefined" || stickers == "") anim.src += "&stickers=" + stickers;
@@ -95,8 +94,7 @@ function insertTable(table, maxWidth, titles, setups, captions)
     anim.width = size;
     anim.height = size;
     anim.setAttribute("scrolling", "no");
-    //anim.src = "http://teoidus.github.io/dump/CSSCube/demo.html?size="
-    anim.src = "../../CSSCube/demo.html?size="
+    anim.src = "../CSSCube/demo.html?size="
       + size + setups[i];
     var animation = animations.insertCell(animations.cells.length);
     animation.appendChild(anim);
