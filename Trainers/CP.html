@@ -111,7 +111,7 @@
         }
         
         var size = window.innerWidth * 0.9 / titleTexts.length;
-        var demoURL = "../../CSSCube/demo.html?size=" + size; 
+        var demoURL = "https://johnli0135.github.io/2GR/CSSCube/demo.html?size=" + size; 
         var demoString = (id == "recognition") ? "&godmode=true&setup=x2 y " + scrambleString
           : getDemoFixed(table.scramble.split(" ").slice(0, Math.floor(len/2)).join(" "));
         var srcs = [demoURL + demoString];
@@ -130,7 +130,6 @@
           anim.width = size;
           anim.height = size;
           anim.setAttribute("scrolling", "no");
-          //anim.src = "http://teoidus.github.io/dump/CSSCube/demo.html?size="
           anim.src = srcs[i];
           
           diagram.appendChild(anim);
