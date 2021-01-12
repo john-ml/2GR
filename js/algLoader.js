@@ -18,7 +18,7 @@ function loadAlgs(table, algs)
     
     var anim = document.createElement("iframe");
     anim.setAttribute("class", "demo");
-    anim.src = "https://johnli0135.github.io/2GR/CSSCube/demo.html?size=200&setup="
+    anim.src = "https://john-ml.github.io/2GR/CSSCube/demo.html?size=200&setup="
       + invert(algs[i][0]) + "&moves=" + algs[i][0];
     var alg = document.createElement("span");
     alg.innerHTML = " " + algs[i][0];
